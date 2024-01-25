@@ -1,15 +1,13 @@
-package ru.netology.springbootdemoapp_task1;
+package ru.netology.springbootdemoapp_task1.Controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.netology.springbootdemoapp_task1.Interfaces.SystemProfile;
+import ru.netology.springbootdemoapp_task1.Model.SystemProfile;
 
 @RestController
 @RequestMapping("/")
 public class ProfileController {
-    @Autowired
     private SystemProfile profile;
 
     public ProfileController(SystemProfile profile) {

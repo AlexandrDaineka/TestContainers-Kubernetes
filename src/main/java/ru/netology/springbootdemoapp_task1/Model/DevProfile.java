@@ -1,6 +1,4 @@
-package ru.netology.springbootdemoapp_task1.TwoImplementations;
-
-import ru.netology.springbootdemoapp_task1.Interfaces.SystemProfile;
+package ru.netology.springbootdemoapp_task1.Model;
 
 public class DevProfile implements SystemProfile {
     @Override
